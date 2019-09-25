@@ -17,3 +17,7 @@ else
    puts "#{current_line}" 
  end
 end 
+def take_a_number(array,name)
+  #arr = []
+  array << name
+end
