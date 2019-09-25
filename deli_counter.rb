@@ -7,7 +7,8 @@ else
     array.each do |name| 
       current_line += " #{counter}. #{name}" 
       counter +1
-end
-  puts "#{current_line}"
+    end
+    puts "#{current_line}"
+ 
  end
 end 
