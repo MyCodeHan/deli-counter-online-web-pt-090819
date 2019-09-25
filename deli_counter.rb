@@ -4,7 +4,7 @@ def line(array)
 else
   current_line = "this line a currently:"
   counter = 1
-  array.each {|name| current_line += "#{counter}. #{name}" counter += 1}
+  array.each {|name| current_line += "#{counter}. #{name}" counter ++}
   current_line
 end
   puts "#{current_line}"
