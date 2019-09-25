@@ -19,11 +19,12 @@ else
 end 
 def take_a_number(array,name)
   array << name
-    puts "welcome, #{name}. You are number #{array.length} in line" 
+    puts "Welcome, #{name}. You are number #{array.length} in line" 
 end
 
 def now_serving(array)
   if array.empty?
   puts "There is nobody waiting to be served!"
  end
-end 
+end
+puts "Welcome #{name}. You are number #{array.length} in line."
