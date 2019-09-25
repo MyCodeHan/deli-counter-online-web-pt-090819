@@ -2,7 +2,7 @@ def line(array)
     if array.empty?
   puts "The line is currently empty."
 else
-  current_line = "this line a currently:"
+  current_line = "The line a currently:"
     counter = 1
     array.each do |name| 
       current_line += " #{counter}. #{name}" 
